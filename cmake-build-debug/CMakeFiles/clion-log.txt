@@ -1,0 +1,5 @@
+"D:\My_Program\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\Project\STM32_Project\Clion\foc_fd6288
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug

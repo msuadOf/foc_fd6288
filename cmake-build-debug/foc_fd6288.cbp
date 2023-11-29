@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="foc_fd6288"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foc_fd6288.elf">
+				<Option output="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/foc_fd6288.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/Target"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/foc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/INCLUDE"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/AS5047"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 foc_fd6288.elf"/>
+					<CompileFile command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foc_fd6288.elf/fast">
+				<Option output="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/foc_fd6288.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/Target"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/foc"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/INCLUDE"/>
+					<Add directory="D:/Project/STM32_Project/Clion/foc_fd6288/AS5047"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\my_program\gnu_arm\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 foc_fd6288.elf/fast"/>
+					<CompileFile command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/My_Program/MinGW/bin/mingw32-make.exe -f &quot;D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/AS5047/AS5047P.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/AS5047/AS5047P.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/adc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/dma.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/gpio.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/i2c.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/main.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/spi.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/stm32h7xx_it.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/tim.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Inc/usart.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/adc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/dma.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/gpio.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/i2c.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/main.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/spi.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/stm32h7xx_it.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/syscalls.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/sysmem.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/system_stm32h7xx.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/tim.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Src/usart.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Core/Startup/startup_stm32h750vbtx.s">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Include/arm_common_tables.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Include/arm_const_structs.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Include/arm_math.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_abs_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_abs_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_abs_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_abs_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_add_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_add_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_add_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_add_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_dot_prod_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_mult_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_mult_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_mult_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_mult_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_negate_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_negate_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_negate_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_negate_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_offset_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_offset_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_offset_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_offset_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_scale_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_scale_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_scale_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_scale_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_shift_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_shift_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_shift_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_sub_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_sub_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_sub_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/BasicMathFunctions/arm_sub_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/CommonTables/arm_common_tables.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/CommonTables/arm_const_structs.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_pid_reset_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_sin_cos_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/ControllerFunctions/arm_sin_cos_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_cos_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_cos_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_cos_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_sin_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_sin_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_sin_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_sqrt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FastMathFunctions/arm_sqrt_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_opt_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_opt_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_partial_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_conv_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_opt_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_opt_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_correlate_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_decimate_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_init_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_interpolate_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_lattice_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_init_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_fir_sparse_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_iir_lattice_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_norm_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/FilteringFunctions/arm_lms_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_add_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_add_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_add_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_inverse_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_inverse_f64.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_fast_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_fast_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_mult_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_scale_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_sub_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/MatrixFunctions/arm_mat_trans_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_max_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_max_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_max_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_max_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_mean_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_mean_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_mean_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_mean_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_min_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_min_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_min_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_min_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_power_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_power_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_power_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_power_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_rms_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_rms_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_rms_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_std_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_std_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_std_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_var_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_var_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/StatisticsFunctions/arm_var_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_copy_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_copy_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_copy_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_copy_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_fill_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_fill_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_fill_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_fill_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_float_to_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_float_to_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_float_to_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q15_to_float.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q15_to_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q15_to_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q31_to_float.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q31_to_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q31_to_q7.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q7_to_float.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q7_to_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/SupportFunctions/arm_q7_to_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_bitreversal.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_bitreversal2.S">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix2_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix4_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_cfft_radix8_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_dct4_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_fast_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_fast_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_init_f32.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_init_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_init_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_q15.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/DSP_LIB/Source/TransformFunctions/arm_rfft_q31.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/STM32H750VBTX_FLASH.ld">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usb_device.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usb_device.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usbd_desc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/App/usbd_desc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/as5047_user.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/as5047_user.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/as5600.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/as5600.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/foc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/foc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/header.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/spwm.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/spwm.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/svpwm.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/svpwm.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/user_adc.c">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/foc/user_adc.h">
+			<Option target="foc_fd6288.elf"/>
+		</Unit>
+		<Unit filename="D:/Project/STM32_Project/Clion/foc_fd6288/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

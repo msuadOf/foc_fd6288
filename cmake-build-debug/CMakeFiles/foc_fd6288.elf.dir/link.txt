@@ -1,0 +1,1 @@
+D:\My_Program\GNU_ARM\bin\arm-none-eabi-gcc.exe -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/foc_fd6288.map -mcpu=cortex-m7 -mthumb -mthumb-interwork -T D:/Project/STM32_Project/Clion/foc_fd6288/STM32H750VBTX_FLASH.ld @CMakeFiles\foc_fd6288.elf.dir\objects1.rsp -o foc_fd6288.elf 

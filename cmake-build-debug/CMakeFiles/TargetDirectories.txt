@@ -1,0 +1,3 @@
+D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/CMakeFiles/foc_fd6288.elf.dir
+D:/Project/STM32_Project/Clion/foc_fd6288/cmake-build-debug/CMakeFiles/edit_cache.dir
